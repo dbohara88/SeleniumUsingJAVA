@@ -35,5 +35,6 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/automation/seleniumGrid/server.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
