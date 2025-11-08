@@ -46,5 +46,6 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/automation/selenium-java-4.25.0(1)/selenium-api-4.25.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
