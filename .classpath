@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry exported="true" kind="lib" path="C:/Users/debug/.m2/repository/org/seleniumhq/selenium/selenium-api/4.38.0/selenium-api-4.38.0.jar" sourcepath="C:/Users/debug/.m2/repository/org/seleniumhq/selenium/selenium-api/4.38.0/selenium-api-4.38.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-api"/>
+			<attribute name="maven.version" value="4.38.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" output="target/classes" path="src/main/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
@@ -17,45 +26,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/debug/.m2/repository/org/seleniumhq/selenium/selenium-api/4.38.0/selenium-api-4.38.0.jar" sourcepath="C:/Users/debug/.m2/repository/org/seleniumhq/selenium/selenium-api/4.38.0/selenium-api-4.38.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
-			<attribute name="maven.artifactId" value="selenium-api"/>
-			<attribute name="maven.version" value="4.38.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/debug/.m2/repository/org/seleniumhq/selenium/selenium-api/4.34.0/selenium-api-4.34.0.jar" sourcepath="C:/Users/debug/.m2/repository/org/seleniumhq/selenium/selenium-api/4.34.0/selenium-api-4.34.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
-			<attribute name="maven.artifactId" value="selenium-api"/>
-			<attribute name="maven.version" value="4.34.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="D:/automation/seleniumGrid/server.jar"/>
 	<classpathentry kind="src" path="/E-CommerceAutomation"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/debug/.m2/repository/org/seleniumhq/selenium/selenium-api/4.27.0/selenium-api-4.27.0.jar" sourcepath="C:/Users/debug/.m2/repository/org/seleniumhq/selenium/selenium-api/4.27.0/selenium-api-4.27.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
-			<attribute name="maven.artifactId" value="selenium-api"/>
-			<attribute name="maven.version" value="4.27.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="D:/automation/selenium-java-4.25.0(1)/selenium-api-4.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/debug/.m2/repository/org/seleniumhq/selenium/selenium-api/4.25.0/selenium-api-4.25.0.jar" sourcepath="C:/Users/debug/.m2/repository/org/seleniumhq/selenium/selenium-api/4.25.0/selenium-api-4.25.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
-			<attribute name="maven.artifactId" value="selenium-api"/>
-			<attribute name="maven.version" value="4.25.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" path="/gg"/>
+	<classpathentry kind="src" path="/Revise"/>
+	<classpathentry kind="lib" path="D:/automation/seleniumGrid/server.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
