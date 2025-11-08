@@ -56,5 +56,6 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="/gg"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
