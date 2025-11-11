@@ -31,6 +31,8 @@ public class Assignment {
 				break;
 			}
 		}
+		
+		driver.close();
 	}
 
 }
