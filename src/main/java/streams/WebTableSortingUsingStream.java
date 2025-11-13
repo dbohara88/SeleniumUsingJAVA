@@ -31,10 +31,14 @@ public class WebTableSortingUsingStream {
 		List<String> sortFruitList = streamFruitList.stream().sorted().collect(Collectors.toList());
 		
 		Assert.assertEquals(streamFruitList, sortFruitList);
-		
-		
-		List<String> price = fruitList.stream().filter(s -> s.getText().contains("Beans")).map(s -> PriceVeggie(s)).collect(Collectors.toList());
+		List<String> price = fruitList.stream().filter(s -> s.getText().contains("Rice")).map(s -> PriceVeggie(s)).collect(Collectors.toList());
+		do {
+	
 		price.forEach(a -> System.out.println(a));
+		if(price.size()<1) {
+			driver.findElement(By.xpath("//*[@aria-label='Next']")).click();
+		}
+		}while(price.size()<1);
 	}
 
 	private static String PriceVeggie(WebElement s) {
