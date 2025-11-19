@@ -1,41 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-19T20:48:37 IST" name="Groups Tutorial" finished-at="2025-11-19T20:48:37 IST" duration-ms="51">
+  <suite started-at="2025-11-19T21:41:33 IST" name="Suite" finished-at="2025-11-19T21:41:33 IST" duration-ms="50">
     <groups>
-      <group name="smoke">
-        <method signature="Annotations.testMethod1()[pri:0, instance:testNG.Annotations@eadd4fb]" name="testMethod1" class="testNG.Annotations"/>
-        <method signature="tutorial1.Test()[pri:0, instance:testNG.tutorial1@6d60fe40]" name="Test" class="testNG.tutorial1"/>
-        <method signature="tutorial2.Test()[pri:0, instance:testNG.tutorial2@52f27fbd]" name="Test" class="testNG.tutorial2"/>
-        <method signature="tutorial3.carloan()[pri:0, instance:testNG.tutorial3@4c163e3]" name="carloan" class="testNG.tutorial3"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-11-19T20:48:37 IST" name="Grpoups" finished-at="2025-11-19T20:48:37 IST" duration-ms="51">
-      <class name="testNG.tutorial3">
-        <test-method signature="carloan()[pri:0, instance:testNG.tutorial3@4c163e3]" started-at="2025-11-19T20:48:37 IST" name="carloan" finished-at="2025-11-19T20:48:37 IST" duration-ms="0" status="PASS">
+    <test started-at="2025-11-19T21:41:33 IST" name="ParameterTest" finished-at="2025-11-19T21:41:33 IST" duration-ms="50">
+      <class name="testNG.ParameterDemo">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testNG.ParameterDemo@5b247367]" started-at="2025-11-19T21:41:33 IST" name="loginTest" finished-at="2025-11-19T21:41:33 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepak123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carloan -->
-      </class> <!-- testNG.tutorial3 -->
-      <class name="testNG.tutorial1">
-        <test-method signature="Test()[pri:0, instance:testNG.tutorial1@6d60fe40]" started-at="2025-11-19T20:48:37 IST" name="Test" finished-at="2025-11-19T20:48:37 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test -->
-      </class> <!-- testNG.tutorial1 -->
-      <class name="testNG.tutorial2">
-        <test-method signature="Test()[pri:0, instance:testNG.tutorial2@52f27fbd]" started-at="2025-11-19T20:48:37 IST" name="Test" finished-at="2025-11-19T20:48:37 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test -->
-      </class> <!-- testNG.tutorial2 -->
-      <class name="testNG.Annotations">
-        <test-method signature="testMethod1()[pri:0, instance:testNG.Annotations@eadd4fb]" started-at="2025-11-19T20:48:37 IST" name="testMethod1" finished-at="2025-11-19T20:48:37 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod1 -->
-      </class> <!-- testNG.Annotations -->
-    </test> <!-- Grpoups -->
-  </suite> <!-- Groups Tutorial -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- testNG.ParameterDemo -->
+    </test> <!-- ParameterTest -->
+  </suite> <!-- Suite -->
 </testng-results>

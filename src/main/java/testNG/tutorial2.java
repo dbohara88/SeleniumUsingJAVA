@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class tutorial2 {
 
-	@Test(groups= {"smoke"})
+	@Test
 	public void Test() {
 		System.out.println("good");
 	}
@@ -14,7 +14,7 @@ public class tutorial2 {
 	public void value() {
 		System.out.println("false");;
 	}
-	@Test(dependsOnMethods = {"Tests", "value"})
+	@Test
 	public void Hi() {
 		System.out.println("Hi");
 	}

@@ -2,10 +2,13 @@ package testNG;
 
 import org.testng.annotations.Test;
 
+
+
 public class tutorial1 {
 	
+
 	@Test(groups= {"smoke"})
-	public void Test() {
+	public void Test(String urlname) {
 	
 		System.out.println("Hello from Test() method");
 	}

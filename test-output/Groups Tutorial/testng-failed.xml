@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Groups Tutorial]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Grpoups(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testNG.tutorial1">
+        <methods>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- testNG.tutorial1 -->
+    </classes>
+  </test> <!-- Grpoups(failed) -->
+</suite> <!-- Failed suite [Groups Tutorial] -->

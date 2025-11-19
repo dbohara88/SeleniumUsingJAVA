@@ -25,14 +25,16 @@ public class Annotations {
 		System.out.println("4. @BeforeMethod - Runs before each @Test method");
 	}
 
-	@Test(groups = {"smoke"})
+	@Test
 	public void testMethod1() {
 		System.out.println("5. @Test - Test Method 1");
 	}
 
+	@Parameters({"url"})
 	@Test
-	public void testMethod2() {
+	public void testMethod2(String urlname) {
 		System.out.println("5. @Test - Test Method 2");
+		System.out.println(urlname);
 	}
 
 	@AfterMethod
