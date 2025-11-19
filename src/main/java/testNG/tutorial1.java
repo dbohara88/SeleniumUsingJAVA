@@ -9,4 +9,9 @@ public class tutorial1 {
 	
 		System.out.println("Hello from Test() method");
 	}
+	
+	@Test(dependsOnGroups = "smoke")
+	public void page() {
+		System.out.println("depends on group smoke"); 
+	}
 }

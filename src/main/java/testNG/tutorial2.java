@@ -9,7 +9,12 @@ public class tutorial2 {
 		System.out.println("good");
 	}
 	
+	
 	@Test
+	public void value() {
+		System.out.println("false");;
+	}
+	@Test(dependsOnMethods = {"Tests", "value"})
 	public void Hi() {
 		System.out.println("Hi");
 	}
